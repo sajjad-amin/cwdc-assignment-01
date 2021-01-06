@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  height: 100px;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3e3e3e;
+}
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+}
+.hilight {
+  color: tomato;
+}
+p {
+  color: #3e3e3e;
+}
+ul {
+  list-style-type: none;
+  float: right;
+  margin-right: 50px;
+}
+li {
+  display: inline;
+  margin: 10px 20px;
+}
+section {
+  height: 500px;
+  padding-bottom: 2%;
+}
+.half-section {
+  width: 40%;
+  height: 100%;
+  margin-left: 5%;
+  padding-left: 2%;
+  float: left;
+}
+.half-section img {
+  display: block;
+  max-width: 100%;
+  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(lightSalmon, tomato);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+.material-icons {
+  vertical-align: middle;
+}
+.project-area {
+  background-color: #f8f9fc;
+  min-height: 600px;
+  padding: 5%;
+}
+.project-area h2 {
+  text-align: center;
+}
+.project {
+  margin: 5%;
+}
+.project-card {
+  width: 27%;
+  margin-left: 2.5%;
+  padding: 1%;
+  box-shadow: 1px 1px 10px lightgray;
+  border-radius: 20px;
+  background-color: white;
+  float: left;
+}
+.project-card img {
+  width: 100%;
+}
+.client-area {
+  padding: 5% 10%;
+  min-height: 150px;
+  text-align: center;
+}
+.client-area div {
+  width: 20%;
+  display: inline-block;
+  margin: 5%;
+}
+.client-area img {
+  width: 100%;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+.inquiry-area {
+  height: auto;
+}
+#inquiry {
+  background-image: url("../img/inquiry.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  background-position: center;
+  color: white;
+  margin: 5% 20%;
+  padding: 5%;
+  vertical-align: middle;
+}
+#inquiry h1 {
+  font-size: 40px;
+  display: inline;
+}
+#inquiry a {
+  float: right;
+  padding: 15px 30px;
+}
+footer {
+  text-align: center;
+}
+footer img {
+  width: 30px;
+  height: 30px;
+  margin: 0px 10px 50px 10px;
+}
+footer h3 {
+  font-family: "Bebas Neue", cursive;
+  color: gray;
+}
+footer h2 {
+  font-family: "Roboto", sans-serif;
+}
